@@ -1,7 +1,6 @@
 import { FastifyPluginAsync } from "fastify";
 import * as comentarioService from "../../../../../../../services/comentarios.js";
 import {
-  ComentarioSchema,
   ComentarioType,
   DescripcionComentario,
 } from "../../../../../../../types/comentario.js";
